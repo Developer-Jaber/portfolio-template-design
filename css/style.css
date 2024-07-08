@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* font-family: "Open Sans", sans-serif; */
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+     "wdth" 100;
+}
+
+/* Shared styled */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.primary-btn{
+    color: white;
+    background-color: #FD6E0A;
+    /* height: 64px;
+    width: 150px; */
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Header Styling */
+header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+/* Nav Astyles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Banner styling */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.banner-decription{
+    width: 585px;
+    margin: 0px 160px 0px 200px;
+}
+.banner .greting{
+    font-weight: 600;
+    font-size: 45px;
+    margin: 0;
+}
+.banner .profile-name{
+    font-weight: bold;
+    font-size: 85px;
+    margin: 0;
+}
+.banner .profile-details{
+    font-size: 18px;
+    margin: 30px 0;
+}
+.btn-cv{
+    margin-right: 30px;
+}
+.profile-pic{
+    width: 584px;
+    margin: 0 38px 0 47px;
+}
