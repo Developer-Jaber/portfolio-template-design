@@ -12,6 +12,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+.bg-primary{
+    background-color: #FFF8F3;
+}
 .dark-1{
     color: #181818;
 }
@@ -24,15 +27,16 @@
 .primary-btn{
     color: white;
     background-color: #FD6E0A;
-    /* height: 64px;
-    width: 150px; */
     padding: 20px 35px;
     font-size: 20px;
     font-weight: 600;
     border-radius: 5px;
     border: none;
 }
-
+body{
+    width: 1600px;
+    height: auto;
+}
 /* Header Styling */
 header{
     background-image: url("../images/developer.png"),url("../images/header_bg.png");
@@ -94,4 +98,28 @@ nav ul li a{
 .profile-pic{
     width: 584px;
     margin: 0 38px 0 47px;
+}
+
+
+/* Styling About me section */
+#about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.container{
+    margin: 130px 230px;
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+}
+.about-me-details{
+    margin: 132px 156px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.address-box{
+    display: flex;
+    justify-content: space-evenly;
 }
